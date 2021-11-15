@@ -2,62 +2,6 @@
 
 ## Definitions of the class Computer in subsequent versions:
 
-### v. 01 
-
-```
-public class Computer
-  {
-    public string _BIOSname;
-    public string _ipadress;
-    public string _OS;
-
-    public Computer (string bn, string ip, string os)
-    {
-      _BIOSname = bn;
-      _ipadress = ip;
-      _OS = os;
-    }
-  }
-```
-
-### v. 02 
-
-```
-class Computer
-  {
-    string _BIOSname;
-    private string _ipadress;
-    public string _OS;
-    private static int _counter = 0;
-    public Computer (string bn, string ip, string os)
-    {
-      _BIOSname = bn;
-      _ipadress = ip;
-      _OS = os;   
-      _counter++;
-    }
-    public Computer () 
-    {
-        _counter++;
-    }
-    public static int getCompsNum()
-      {
-          return _counter;
-      }    
-    //proprties
-    public string BiosName
-    {
-    get { return _BIOSname;}
-    set { _BIOSname = value; }
-    }
-    public string IPAddress
-    {
-    get { return _ipadress;}
-    set { _ipadress = value; }
-    }
-  }
-  ```
-
 ### v. 03 
 
 ```
@@ -114,3 +58,60 @@ class Computer
         }
     }
   ```
+
+### v. 02 
+
+```
+class Computer
+  {
+    string _BIOSname;
+    private string _ipadress;
+    public string _OS;
+    private static int _counter = 0;
+    public Computer (string bn, string ip, string os)
+    {
+      _BIOSname = bn;
+      _ipadress = ip;
+      _OS = os;   
+      _counter++;
+    }
+    public Computer () 
+    {
+        _counter++;
+    }
+    public static int getCompsNum()
+      {
+          return _counter;
+      }    
+    //proprties
+    public string BiosName
+    {
+    get { return _BIOSname;}
+    set { _BIOSname = value; }
+    }
+    public string IPAddress
+    {
+    get { return _ipadress;}
+    set { _ipadress = value; }
+    }
+  }
+  ```
+
+### v. 01 
+
+```
+public class Computer
+  {
+    public string _BIOSname;
+    public string _ipadress;
+    public string _OS;
+
+    public Computer (string bn, string ip, string os)
+    {
+      _BIOSname = bn;
+      _ipadress = ip;
+      _OS = os;
+    }
+  }
+```
+
