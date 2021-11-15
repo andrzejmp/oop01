@@ -1,6 +1,6 @@
 # Object Oriented Programming in C# and C++
 
-## 01. Definitions of the class Computer in subsequent versions:
+## 01. Definitions of the class Computer in subsequent versions (C#)
 
 ### v. 03 
 
@@ -115,7 +115,7 @@ public class Computer
   }
 ```
 
-## 02. Data structures
+## 02. Data structures (C#)
 
 ### Declaration of an array of 5 elements of the type  Computer
 
