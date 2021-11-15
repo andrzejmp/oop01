@@ -4,7 +4,7 @@
 
 ### v. 03 
 
-```
+```csharp
 class Computer
     {
         private string _BIOSname;
@@ -61,7 +61,7 @@ class Computer
 
 ### v. 02 
 
-```
+```csharp
 class Computer
   {
     string _BIOSname;
@@ -99,7 +99,7 @@ class Computer
 
 ### v. 01 
 
-```
+```csharp
 public class Computer
   {
     public string _BIOSname;
@@ -119,13 +119,13 @@ public class Computer
 
 ### Declaration of an array of 5 elements of the type  Computer
 
-```
+```csharp
 Computer[]net = new Computer[5];
 ```
 
 ### Declaration of a list of the type Computer
 
-```
+```csharp
 List<Computer> net = new List<Computer>();
 ```
 
