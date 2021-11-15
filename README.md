@@ -1,6 +1,6 @@
 # Object Oriented Programming in C# and C++
 
-## Definitions of the class Computer in subsequent versions:
+## 01. Definitions of the class Computer in subsequent versions:
 
 ### v. 03 
 
@@ -114,4 +114,19 @@ public class Computer
     }
   }
 ```
+
+## 02. Data structures
+
+### Declaration of an array of 5 elements of the type  Computer
+
+```
+Computer[]net = new Computer[5];
+```
+
+### Declaration of a list of the type Computer
+
+```
+List<Computer> net = new List<Computer>();
+```
+
 
