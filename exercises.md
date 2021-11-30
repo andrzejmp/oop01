@@ -21,10 +21,10 @@ Write a C# function that sorts an array of integer numbers using Bubble sort.
 ### Ex. 04
 Write a program that generates that prints out such pattern:
 
-....0....
-...1.2...
-..3.4.5..
-.6.7.8.9.
+    ....0....
+    ...1.2...
+    ..3.4.5..
+    .6.7.8.9.
 
 ### Ex. 05
 Write a program that generates n first Fibonacci numbers.
